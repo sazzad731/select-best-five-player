@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+
+  <!-- tailwindcss link -->
+  <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          fontFamily: {
+            'swash': '"Berkshire Swash"',
+          }
+        }
+      }
+    }
+  </script>
+  <title>Document</title>
+</head>
+<body>
+<!-- header area -->
+  <header class="bg-black">
+    <div class="flex h-[580px] width-full pt-16">
+      <div class="flex-none w-3/12 relative">
+        <img class="absolute bottom-0 left-0 w-full" src="img/ambappe-header.png" alt="">
+      </div>
+      <div class="text-center items-center flex flex-col w-6/12">
+        <h1 class="font-swash text-7xl text-orange-600 pt-8">Select Your Best Five</h1>
+        <div class="w-full relative h-8">
+          <img class="w-40 h-5 absolute top-0 right-[100px]" src="img/Line Marker.png" alt="">
+        </div>
+        <p class="text-white text-lg w-[713px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      </div>
+      <div class="flex-none w-3/12 relative">
+        <img src="img/Card-psg.png" alt="Card psg">
+        <img class="absolute bottom-0 right-0" src="img/FootBall.png" alt="Football">
+      </div>
+    </div>
+  </header>
+<!-- header area -->
+  <section class="bg-zinc-900 width-full text-white py-20">
+    <!-- cards container starts -->
+    <div class="w-4/5 mx-auto flex">
+      <!-- card items start -->
+      <div id="card-container" class="grid grid-cols-3 gap-4 mr-6">
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Rectangle 144.png" alt="Lionel Messi">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Lionel Messi</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Rectangle 144 (1).png" alt="Neymar Jr">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Neymar Jr</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Rectangle 144 (2).png" alt="Kylian Mbappé">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Kylian Mbappé</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Rectangle 144 (3).png" alt="Vítor Machado">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Vítor Machado</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Rectangle 144 (4).png" alt="Sergio Ramos">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Sergio Ramos</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Rectangle 144 (5).png" alt="Renato Sanches">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Renato Sanches</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Portugal_0.jpg" alt="Cristiano Ronaldo">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Cristiano Ronaldo</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/k-Koulibaly.webp" alt="Aaron Long">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Aaron Long</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/images.jpg" alt="Antonee Robinson">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Antonee Robinson</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Rectangle 144 (10).jpg" alt="Auston Trusty">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Auston Trusty</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Rectangle 144 (11).jpg" alt="Abdallah Ndour">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Abdallah Ndour</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <div class="text-center bg-black">
+          <img class="mb-5 w-80" src="img/Rectangle 144 (12).jpg" alt="Alidu Seidu">
+          <h2 class="text-2xl font-bold tracking-wider mb-3">Alidu Seidu</h2>
+          <div class="text-zinc-400 text-base mb-5"><span>36 Goals</span><span class="mx-2">.</span><span>120 Assist</span></div>
+          <button class="bg-sky-500 w-56 h-11 text-lg mb-5">SELECT</button>
+        </div>
+        <!-- card items end -->
+      </div>
+    <!-- cards container end -->
+
+
+    <!-- player cost calculation section starts  -->
+      <div>
+        <div class="bg-black w-[375px] py-4 px-8 mb-8">
+          <div class="flex flex-col items-center mb-3">
+            <h2 class="text-3xl font-bold tracking-wider mb-3">Selected - V</h2>
+            <img src="img/Ureg-Ureg Marker.png" alt="Line image">
+          </div>
+          <div class="mb-14">
+            <ul id="item-box" class="list-decimal list-inside marker:text-zinc-400 marker:text-2xl tracking-wider">
+            </ul>
+          </div>
+        </div>
+
+        <!-- another calculation section -->
+        <div class="bg-black w-[375px] py-4 px-8">
+          <div class="flex flex-col items-center mb-3">
+            <h2 class="text-3xl font-bold tracking-wider mb-3">Budget</h2>
+            <img src="img/Ureg-Ureg Marker.png" alt="Line image">
+          </div>
+          <div class="flex justify-between items-center mb-4">
+            <label for="player-quantity" class="text-zinc-400">Per Player</label>
+            <input id="per-player-cost" class="bg-inherit border-2 border-white w-48 p-2 " type="number">
+          </div>
+          <div class="flex flex-col items-center mb-8">
+            <button id="calculate" class="bg-sky-500 w-56 h-11 text-lg font-bold tracking-widest">Calculate</button>
+          </div>
+          <div class="mb-5">
+            <p class="flex justify-between text-zinc-400 text-lg">Player Expenses<span class="mr-8 text-white">$<span id="total-player-cost">00</span></span></p>
+          </div>
+          <div class="flex justify-between items-center mb-4">
+            <label for="player-quantity" class="text-zinc-400">Manager</label>
+            <input id="manager-cost" class="bg-inherit border-2 border-white w-48 p-2 " type="number" name="player-quantity">
+          </div>
+          <div class="flex justify-between items-center mb-5">
+            <label for="player-quantity" class="text-zinc-400">Coach</label>
+            <input id="coach-cost" class="bg-inherit border-2 border-white w-48 p-2 " type="number" name="player-quantity">
+          </div>
+          <div class="flex flex-col items-center mb-5">
+            <button id="calculate-total" class="bg-sky-500 w-56 h-11 text-lg font-bold tracking-widest">Calculate Total</button>
+          </div>
+          <p class="flex justify-between text-zinc-400 text-lg mb-14">Total<span class="text-orange-600">$<span id="total-cost">00</span></span></p>
+        </div>
+      </div>
+      <!-- player cost calculation section end  -->
+    </div>
+  </section>
+  <script src="js/utility.js"></script>
+  <script src="js/select.js"></script>
+  <script src="js/calculate.js"></script>
+</body>
+</html>
